@@ -21,16 +21,16 @@ def read07Excel(path):
     sheet = wb.get_sheet_by_name('sheet1')
     for row in sheet.rows:
         for cell in row:
-            print(cell.value, "\t", end="")
+            print(cell.value, "\t")
         print()
 
 
-def openExcel():
-    for root, dirs, files in os.walk("xlsx", topdown=False):
-        for name in files:
-            read07Excel(os.path.join(root, name))
+# def openExcel():
+#     for root, dirs, files in os.walk("xlsx", topdown=False):
+#         for name in files:
+#             read07Excel(os.path.join(root, name))
 
 
 if __name__ == '__main__':
-    openExcel()
-    # walk_through()
+    # openExcel()
+    walk_through()
