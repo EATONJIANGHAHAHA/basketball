@@ -26,12 +26,10 @@ def read07Excel(path):
             print(cell.value, "\t")
         print()
 
-
 # def openExcel():
 #     for root, dirs, files in os.walk("xlsx", topdown=False):
 #         for name in files:
 #             read07Excel(os.path.join(root, name))
-
 
 def test():
     print()
