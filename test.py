@@ -1,6 +1,8 @@
 from domaincolorutil import DomainColorUtil
 import os
 import openpyxl
+import matlab
+import matlab.engine
 
 
 def open_one_file(image_path):
@@ -31,6 +33,11 @@ def read07Excel(path):
 #             read07Excel(os.path.join(root, name))
 
 
+def test():
+    print()
+
+
 if __name__ == '__main__':
     # openExcel()
-    walk_through()
+    # walk_through()
+    test()

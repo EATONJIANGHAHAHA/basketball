@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+
 import colorsys
 from PIL import Image
+
 
 
 class DomainColorUtil:
