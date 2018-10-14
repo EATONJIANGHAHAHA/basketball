@@ -1,8 +1,6 @@
 from domaincolorutil import DomainColorUtil
 import os
 import openpyxl
-import matlab
-import matlab.engine
 
 
 def open_one_file(image_path):
