@@ -9,7 +9,7 @@ import numpy as np
 import cv2 as cv  
   
 from get_data import get_pos_samples,get_neg_samples,read_pos_samples,read_neg_samples  
-from svm_train import svm_config,svm_train,svm_save,svm_load  
+from svm_train import svm_config,svm_train,svm_save,svm_load
   
 #计算hog特征  
 def computeHog(imgs,features,wsize = (128,64)):  
